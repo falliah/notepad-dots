@@ -27,44 +27,20 @@ rxvt.perl-ext-common: selection-to-clipboard
 rxvt*backgroundPixmap: /home/ethan/Downloads/backpix.xpm;style=tiled
 
 
-!rxvt*font: -sony-fixed-medium-r-*-*-16-*-*-*-*-*-*-*
-!rxvt*boldFont: -sony-fixed-medium-r-*-*-16-*-*-*-*-*-*-*
 rxvt*font: xft:desertedttf2:style=medium:pixelsize=16
 rxvt*boldFont: xft:desertedttf2:style=medium:pixelsize=16
 rxvt.letterSpace: 1
 
-!rxvt*font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*
-!rxvt*boldFont: -*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*
 rxvt*allowBoldFonts: false
-!dzen2.font: xft:deserted
-!dzen2.foreground: black
-!dzen2.background: white
 
-!#xterm*font: xft:sq
-!xterm.font: xft:cherry
-!xterm.boldFont: xft:cherry
-!xterm.allowBoldfonts: false
-
-!#rxvt*font: xft:deserted
-!#rxvt*boldFont: xft:deserted
-!#rxvt*allowBoldFonts: false
 dzen2.font: xft:deserted:size=16
 dzen2.foreground: black
 dzen2.background: white
 
 ! Colors
 
-!#rxvt*background: #dadccf
-!#rxvt*foreground: #3b4b59
-!#rxvt*background: #fff7eb0
-!rxvt*background: #fcfaff
-!*foreground: #694976
-!rxvt*foreground: #cbcbcb
-
-! special
 *.foreground:   #363157
 *.background:   #FFF7EB
-!*.background:    #2d2424
 
 *.cursorColor:  #2D2424
 
@@ -103,129 +79,15 @@ dzen2.background: white
 
 ! Misc
 
-!rxvt.borderColor: #bfd8b1
-!rxvt.borderColor: #ca0000
 *internalBorder: 0
-!rxvt*cursorColor:  #dadccf
 *cursorColor: #fff7eb
 rxvt*externalBorder: 20
 rxvt*borderWidth: 20
 *scrollBar: false
 *saveLines: 8000
 
-! ethanscolorscheme
 
-! base colors
-!rxvt*background: #f0f0f0
-!rxvt*foreground: #0f0f0f
-! BISCUIT
-! black
-!rxvt*color0:     #483939
-!rxvt*color8:     #9c8181
-
-! pink
-!rxvt*color1:     #b54851
-!rxvt*color9:     #c8767d
-
-! green
-!rxvt*color2:     #d0796d
-!rxvt*color10:    #db9a91
-
-! yellow
-!rxvt*color3:     #c6846c
-!rxvt*color11:    #d4a391
-
-! purple
-!rxvt*color4:     #938579
-!rxvt*color12:    #afa49b
-
-! pink
-!rxvt*color5:     #877b85
-!rxvt*color13:    #afa49b
-
-! blue
-!rxvt*color6:     #794f65
-!rxvt*color14:    #a3728b
-
-! white
-!rxvt*color7:     #e0cfc6
-!rxvt*color15:    #fff7eb
 
 ! geometry
 
 rxvt*geometry: 80x32
-
-! base colors
-!rxvt*background: #f0f0f0
-!rxvt*foreground: #0f0f0f
-
-! black
-!rxvt*color0:     #404040
-!rxvt*color8:     #404040
-
-! pink
-!rxvt*color1:     #dacabf
-!rxvt*color9:     #dacabf
-
-! green
-!rxvt*color2:     #bfdaca
-!rxvt*color10:    #bfdaca
-
-! yellow
-!rxvt*color3:     #cfdabf
-!rxvt*color11:    #cfdabf
-
-! purple
-!rxvt*color4:     #cabfda
-!rxvt*color12:    #cabfda
-
-! pink
-!rxvt*color5:     #dabfcf
-!rxvt*color13:    #dabfcf
-
-! blue
-!rxvt*color6:     #bfcfda
-!rxvt*color14:    #bfcfda
-
-! white
-!rxvt*color7:     #f7f7f7
-!rxvt*color15:    #f7f7f7
-
-! geometry
-
-
-
-
-
-
-! black
-!rxvt*.color0:       #fffaf3
-!rxvt*.color8:       #f2e9e1
-
-! red
-!rxvt*.color1:       #b4637a
-!rxvt*.color9:       #b4637a
-
-! green
-!rxvt*.color2:       #ea9d34
-!rxvt*.color10:      #ea9d34
-
-! yellow
-!rxvt*.color3:       #d7827e
-!rxvt*.color11:      #d7827e
-
-! blue
-!rxvt*.color4:       #286983
-!rxvt*.color12:      #286983
-
-! magenta
-!rxvt*.color5:       #907aa9
-!rxvt*.color13:      #907aa9
-
-! cyan
-!rxvt*.color6:       #56949f
-!rxvt*.color14:      #56949f
-
-! white
-!rxvt*.color7:       #9893a5
-!rxvt*.color15:      #797593
