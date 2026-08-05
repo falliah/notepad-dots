@@ -1,0 +1,565 @@
+#ethan's .ctwmrc
+#Emergency Script
+"L9" = : r|w|t|m|f : f.twmrc  #shift "L2": source .ctwmrc
+
+#Fonts
+#-*-courier-medium-r-*-*-14-*-*-*-*-*-*-*
+#-sony-fixed-medium-r-*-*-16-*-*-*-*-*-*-*
+# 694976 and e9dcf5
+#MenuFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
+#TitleFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
+#IconMAnagerFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
+#IconFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
+#ResizeFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
+#WorkSpaceFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
+TitleFont "-*-clean-*-*-*-*-6-*-*-*-*-*-*-*"
+
+MenuFont "-*-fixed-*-r-*-*-16-120-*-*-*-*-iso8859-1"
+
+IconMAnagerFont "-*-fixed-*-r-*-*-16-120-*-*-*-*-iso8859-1"
+IconFont "-*-fixed-*-r-*-*-16-120-*-*-*-*-iso8859-1"
+ResizeFont "-*-fixed-*-r-*-*-16-120-*-*-*-*-iso8859-1"
+WorkSpaceFont "-*-fixed-*-r-*-*-16-120-*-*-*-*-iso8859-1"
+
+
+
+# COLORS                                          
+
+NoDefaults
+#NoHighlight
+#NoHighlights
+
+Color
+{
+  BorderColor           "#fff7eb"
+  DefaultBackground     "#9c8181"
+  DefaultForeground     "#fff7eb"
+  TitleBackground       "#fff7eb"
+  TitleForeground       "#fff7eb"
+  BorderTileForeground  "#fff7eb"
+  BorderTileBackground  "#fff7eb"
+#{
+# "xeyes" "#483939"
+# "TWM Icon Manager" "#483939"
+# "date" "#483939"
+# "cal" "#483939"
+#}
+  MenuBackground        "#483939"
+  MenuForeground        "#fff7eb"
+  IconManagerBackground "#fff7eb"
+  IconManagerForeground "#363157"
+  MenuTitleBackground   "#483939"
+  MenuTitleForeground   "#fff7eb"
+  MenuShadowColor       "#483939"
+  IconManagerHighlight  "#e0e1de"
+  IconBackground        "#9c8181"
+  MapWindowBackground   "#483939"
+  MapWindowForeground   "#483939"
+  IconForeground        "#fff7eb"
+}
+
+
+SaveColor					# tell client about these
+{						# settings to "smooth"
+     BorderColor
+     TitleBackground
+     TitleForeground
+     BorderTileBackground
+     BorderTileForeground
+}
+TitleJustification "center"
+
+#noTitle
+dontsqueezetitle
+# misc ctwm settings                                         
+
+RestartPreviousState			# use previous if any
+TransientHasOccupation			# /..uhh? Try it! What is it?
+AutoFocusToTransients			# Give transients autofocus.
+OpaqueMove				# want to see the window?
+OpaqueResize				# see everthing when you resize
+AutoOccupy				# change occupation automat. (?)
+AutoRelativeResize			# intelligent resizing => easier
+NoGrabServer				# no grab server on popup/opaque (?)
+WarpRingOnScreen			# only warp on current workspace
+ConstrainedMoveTime       0		# How quick to 2click to constrain
+IgnoreLockModifier			# Don't check locks for bindings (CAPS)
+RandomPlacement          "off"		# ask for pos?
+MoveDelta                 3		# dist. 4 move 2 work
+AnimationSpeed            15		# update speed for animated things
+MaxWindowSize		  "2000x2000" # default
+NoStackMode				# ignore stacking reqs from clients
+RaiseWhenAutoUnSqueeze			
+ShortAllWindowsMenus			# Don't show IM and WSM in win.menu
+
+# Ttitlebar config
+
+NoDefaults				# not use default buttons
+
+TitleButtonShadowDepth    0
+TitleShadowDepth          0
+TitleButtonBorderWidth    0
+TitlePadding              0		# frame around TBobjects?
+ButtonIndent              -1		# indentated TBbuttons?		
+FramePadding		  0		# frame around TB?
+NoTitleHighlight
+#NoHighlight
+
+#RightTitleButton  "xpm:/home/ethan/Downloads/smallerbis.xpm" = f.resize
+#RightTitleButton           "xpm:/home/ethan/Downloads/sbs.xpm"    = f.delete
+####RightTitleButton           "xpm:/home/ethan/Downloads/backpix.xpm"    = f.iconify
+####RightTitleButton           "xpm:/home/ethan/Downloads/backpix.xpm"    = f.resize
+
+####LeftTitleButton           "xpm:/home/ethan/Downloads/backpix.xpm"    = f.delete
+
+#RightTitleButton           "xpm:/home/ethan/Downloads/invblu.xpm"    = f.resize
+#####LeftTitleButton            "xpm:/home/ethan/Downloads/apple694976.xpm"  =f.iconify
+
+#LeftTitleButton  "xpm:/home/ethan/Downloads/sba.xpm" = f.delete
+#Rig
+# text buttons
+RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.movex
+RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+
+#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+
+#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+
+RightTitleButton           "xpm:/home/ethan/Downloads/downtext1.xpm"    = f.resize
+RightTitleButton           "xpm:/home/ethan/Downloads/uptext1.xpm"    = f.move
+RightTitleButton           "xpm:/home/ethan/Downloads/xtext.xpm"    = f.delete
+
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
+
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconif
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+
+#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
+
+
+
+
+# Borders
+
+UseTileBorder
+ThreeDBorderWidth         0
+Borderwidth               8
+BorderShadowDepth         0
+
+# Workspacemanager config
+
+DontWarpCursorInWMap			# no move to indicated win
+NoShowOccupyAll				# don't show'em in WSM
+ReverseCurrentWorkspace		# reverse colors in curr WS?
+StartInMapState				# buttons or maps?
+
+WMgrHorizButtonIndent     0		# /dist. between buttons
+WMgrVertButtonIndent      0		# \when in button mode
+
+WorkSpaceManagerGeometry  "220x46-305-2" 6 1
+
+WorkSpaces
+{
+#    N          MC        MTC       BC       FC    RX 
+
+    "1"    { "#9c8181" "#9c8181" "#9c8181" "#9c8181" "#9c8181"}
+    "2"    { "#9c8181" "#9c8181" "#9c8181" "#9c8181" "#9c8181"}
+    "3"    { "#9c8181" "#9c8181" "#9c8181" "#9c8181" "#9c8181"}
+    "4"    { "#9c8181" "#9c8181" "#9c8181" "#9c8181" "#9c8181"}
+    "5"    { "#9c8181" "#9c8181" "#9c8181" "#9c8181" "#9c8181"}
+    "6"    { "#9c8181" "#9c8181" "#9c8181" "#9c8181" "#9c8181"}
+}
+
+
+#---------------------------------------------------------
+# ICON CONFIG and
+# ICONS
+#---------------------------------------------------------
+
+ForceIcons				# use icons put below, not default
+IconifyByUnmapping			# no icon when iconified
+#NoRaiseOnDeiconify			# raise deiconified wins?
+#AutoRaiseIcons				# raise icons when under cursor
+
+#IconDirectory            ""		# dir. for bitmapI
+IconJustification         "center"	# where put image/title?
+MaxIconTitleWidth         120
+#IconBorderWidth          0             # frame around I?
+#UnknownIcon		  ""		# bitmap to use for unknown?
+
+SchrinkIconTitles			# shrink icon titles a'la Motif
+
+# Where on the screen to put icons and how to place them.
+IconRegion                "140x684+0+0"   North East 130 90  { }
+IconRegion                "140x684+140+0" North East 130 90  { }
+
+
+#---------------------------------------------------------
+# ICON MANAGER CONFIG
+#---------------------------------------------------------
+
+ShowIconManager				# activate/deactivate IM
+SortIconManager				# sorts alphabetically
+NoIconManagerFocus			# !focus the win under cursor in IM
+
+IconManagerGeometry       "148x40-31+850" 1
+
+IconManagerHighlight "#694976"
+
+NoTitle 
+{
+#"TWM Icon Manager"
+"rxvt"
+"urxvt"
+}
+
+#---------------------------------------------------------
+# MOUSE POINTER CONFIG and   (cursor = mouse pointer)
+# MOUSE POINTERS
+#---------------------------------------------------------
+
+BorderResizeCursors			# resize curs on border
+
+
+
+
+
+
+#menus
+
+NoMenuShadows
+NoBackingStore				# /which is faster,
+
+menu "LinuxPrograms"
+{
+"pin"              f.pin
+#"rxvt"		!"(rxvt -geometry 40x15 -T rxvt)&"
+"rxvt"     !"(rxvt -geometry 40x15 -T rxvt -e tmux)&" 
+#"execute"               !"(fbrun -nearmouse -w 300 -h 22 -fg '#363157' -bg '#fff7eb' -title execute)&"
+#"cal"           !"(bash /home/ethan/Documents/programs/calmaker.sh)"
+#"date"      !"(bash /home/ethan/Documents/programs/datemaker.sh)"
+"1993"     !"(bash /home/ethan/Documents/programs/datemaker.sh)"
+"goodbye"  f.quit
+}
+
+
+#menu "Menus"
+#{
+#"menus"			f.title
+#"pin"              f.pin
+#"execute"               !"(fbrun -nearmouse -w 300 -h 22 -fg '#363157' -bg '#fff7eb' -title execute)&"
+#"cal"           !"(bash /home/ethan/Documents/programs/calmaker.sh)"
+#" +"           f.nextworkspace
+#" -"           f.prevworkspace
+#"scrot"                 !"(bash /home/ethan/Documents/programs/ctwmscreenshotter.sh)"
+#"wall+picom"            !"(bash /home/ethan/Documents/programs/ctwmsetwall.sh)"
+#"show workspaces"                 !"(bash /home/ethan/Documents/programs/macosbar.sh &)"
+#"pixelart"                 !"(pkill lemonbar && pkill dzen2 &)"
+#"xrefresh"         !"(xrefresh)"
+#"restartctwm"      f.twmrc
+#"reloadXr"      !"(xrdb /home/ethan/.Xresources)"
+#"xeyes"   !"(xeyes +render &)"
+#"icon manager"          f.showiconmgr
+#"hideicon"    f.hideiconmgr
+#">w<"   !"(bash /home/ethan/Documents/programs/uwuify)"
+#}
+
+#menu "windows"
+#{
+#    "Windows"      f.title
+#    "Kill"         f.menu "Kill"
+#    "misc"         f.menu "misc"
+#    "Save"         f.saveyourself
+#    "Refresh All"  f.refresh
+#    "Refresh"      f.winrefresh
+#    "Occupy"       f.occupy
+#    "Occupy All"   f.occupyall
+#    "Vanish"       f.vanish
+#    "Iconify"      f.iconify
+#    "Resize"       f.resize
+#    "RaiseLower"   f.raiselower
+#    "Move"         f.move
+#    "Raise"        f.raise
+#    "Lower"        f.lower
+#    "Info"         f.identify
+#    "Focus"        f.focus
+#    "Unfocus"      f.unfocus
+#}
+
+menu "Menus"
+{
+"pin"              f.pin
+" +"           f.nextworkspace
+" -"           f.prevworkspace
+}
+
+menu "Kill"
+{
+    "Pin menu"     f.pin
+    "Kill Window"  f.destroy
+    "Send Delete"  f.delete
+}
+
+
+#menu "Misc"
+#{
+#"pin"              f.pin
+#"wall+picom"       !"(bash /home/ethan/Documents/programs/ctwmsetwall.sh)"
+#"show workspaces"  !"(bash /home/ethan/Documents/programs/macosbar.sh)"
+#"restartctwm"      f.twmrc
+#"icon manager"     f.showiconmgr
+#"hideicon"         f.hideiconmgr
+#">w<"              !"(bash /home/ethan/Documents/programs/uwuify)"
+#}
+
+
+menu "Misc"
+{
+"pin"              f.pin
+"execute"               !"(fbrun -nearmouse -w 300 -h 22 -fg '#363157' -bg '#fff7eb' -title execute &)"
+"cal"           !"(bash /home/ethan/Documents/programs/calmaker.sh)"
+"scrot"                 !"(bash /home/ethan/Documents/programs/ctwmscreenshotter.sh &)"
+"wall+picom"            !"(bash /home/ethan/Documents/programs/ctwmsetwall.sh)"
+"show workspaces"                 !"(bash /home/ethan/Documents/programs/macosbar.sh)"
+"xrefresh"         !"(xrefresh)"
+"restartctwm"      f.twmrc
+"reloadXr"      !"(xrdb /home/ethan/.Xresources)"
+"xeyes"   !"(xeyes +render)"
+"icon manager"          f.showiconmgr
+"hideicon"    f.hideiconmgr
+"move"       f.move
+"destroywin"  f.destroy
+">w<"   !"(bash /home/ethan/Documents/programs/uwuify)"
+}
+
+#menu "windows"
+#{
+#    "Windows"      f.title
+#    "minecraft"    !"(bash minecraft-launcher)"
+#    "Kill"         f.menu "Kill"
+#    "misc"         f.menu "misc"
+#    "Save"         f.saveyourself
+#    "Refresh All"  f.refresh
+#    "Refresh"      f.winrefresh
+#    "Occupy"       f.occupy
+#    "Occupy All"   f.occupyall
+#    "Vanish"       f.vanish
+#    "Iconify"      f.iconify
+#    "Resize"       f.resize
+#    "RaiseLower"   f.raiselower
+#    "Move"         f.move
+#    "Raise"        f.raise
+#    "Lower"        f.lower
+#    "Info"         f.identify
+#    "Focus"        f.focus
+#    "Unfocus"      f.unfocus
+#}
+
+menu "titleops"
+{
+    "Title Bar"    f.title
+    "send +"       f.movetonextworkspace
+    "send -"       f.movetoprevworkspace
+    "RaiseLower"   f.raiselower
+    "Iconify"      f.iconify
+    "Info"         f.identify
+    "Focus"        f.focus
+    "Unfocus"      f.unfocus
+    "Refresh"      f.winrefresh
+    "Occupy"       f.occupy
+    "Occupy All"   f.occupyall
+    "Vanish"       f.vanish
+    "Send Delete"  f.delete
+    "Kill Window"  f.destroy
+}
+
+#menu "Kill"
+#{
+#    "Pin menu"     f.pin
+#    "Kill Window"  f.destroy
+#    "Send Delete"  f.delete
+#}
+
+
+
+menu "TMenu" 
+{
+    "Title Menu" f.title
+    "send +"       f.movetonextworkspace
+    "send -"       f.movetoprevworkspace
+    "Iconify"    f.iconify
+    "Move"       f.move
+    "Raise"      f.raise
+    "Occupy all" f.occupyall
+    "Unoccupy"	 f.occupy 
+}
+
+# More misc settings
+
+IconManagerDontShow
+{
+  "bar"
+  "Bar"
+  "lemonbar"
+  "Lemonbar"
+} 
+
+
+
+OccupyAll 
+{
+ "lemonbar"
+ "bar"
+}
+
+AlwaysOnTop
+{
+#     "TWM Icon Manager"
+     "lemonbar"
+     "bar"
+}
+
+NoTitle 
+{					# optional winlist              
+   "Bar"
+   "lemonbar"
+   "bar"
+   "Lemonbar"
+}
+
+NoBorder
+{
+"Bar"
+"bar"
+"Lemonbar"
+"lemonbar"
+
+}
+
+NoHighlight 
+#{
+#"xeyes"
+#"TWM Icon Manager"
+#"date"
+#"cal"
+#}
+
+# FUNCTION DEFINITIONS                                   
+
+Function "move-or-raiselower"  {f.move f.deltastop f.raiselower }
+Function "move-or-lower"       { f.move f.deltastop f.lower }
+Function "move-or-raise"       { f.move f.deltastop f.raise }
+Function "move-or-iconify"     { f.move f.deltastop f.iconify }
+Function "move-or-flip"        { f.move f.deltastop f.raiselower }
+Function "raise-n-focus"       { f.raise f.focus}
+Function "raise-move"          { f.raise f.deltastop f.forcemove }
+Function "blob"                { f.deiconify f.raise f.focus f.lower }
+
+#---------------------------------------------------------
+# MOUSE BUTTON FUNCTIONS
+# BUTTONS	: CONTEXT	: FUNCTION            
+#---------------------------------------------------------
+
+Button1 =	: root		: f.menu "LinuxPrograms"
+#Button1 =	: root		: f.menu "DECPrograms"
+Button3 =	: root		: f.menu "Menus"
+#Button2 =	: root		: f.menu "TwmWindows"
+Button2 =	: root		: f.menu "Misc"
+#Button1 = s	: root		: f.menu "Tangentbord"
+#Button2 = s	: root		: f.menu "Exec"
+
+Button1 =	: t		: f.function "raise-move"
+Button2 =	: t|f		: f.raiselower
+Button3 =	: t|f		: f.menu "TMenu"
+
+Button1 =	: f		: f.resize
+
+Button1 = s	: t|f		: f.zoom
+Button2 = s	: t|f		: f.forcemove
+Button3 = s	: t|f		: f.fullzoom
+
+Button1 = m	: t|f|i|m	: f.raiselower
+Button2 = m	: t|f|i		: f.move
+Button3 = m	: t|f|i|m	: f.lower
+
+Button1 =	: i|m		: f.iconify
+Button2 =	: i		: f.move
+Button3 =	: i|m		: f.raiselower
+
+Button1 = m	: window	: f.raiselower
+#Button2 = s|m	: window 	: f.forcemove
+Button3 = m	: window 	: f.resize
+
+#---------------------------------------------------------
+# KEY FUNCTIONS
+# KEYS	= Altkey: CONTEXT	: FUNCTION
+#---------------------------------------------------------
+
+"Tab"	= m	: r|w|i|m|f	: f.warpring "next"
+"Tab"	= c	: r|w|i|m|f	: f.nextworkspace
+"Down"  = m     : window	: f.lower
+"Escape"= m	: r|w|i|m|f	: f.menu "LinuxPrograms"
+#"F1"	=	: r|w|i|m|f	: f.gotoworkspace "1"
+"F2"	=	: r|w|i|m|f	: f.prevworkspace
+"F3"	=	: r|w|i|m|f	: f.nextworkspace
+#"F4"	=	: w|i|m|f	: f.raise
+#"F5"	=	: w|i|m|f	: f.lower
+#"F6"	=	: r|w|i|m|f	: f.warpto
+#"F6"	=	: r|w|i|m|f	: f.gotoworkspace "1"
+#"F7"	=	: r|w|i|m|f	: f.gotoworkspace "2"
+#"F8"	=	: r|w|i|m|f	: f.gotoworkspace "3"
+#"F9"	=	: r|w|i|m|f	: f.gotoworkspace "4"
+#"F10"	=	: r|w|i|m|f	: f.gotoworkspace "5"
+#"F11"	=	: r|w|i|m|f	: f.gotoworkspace "6"
+#"F12"	=	: r|w|i|m|f	: f.gotoworkspace "7"
+#"F13"	=	: r|w|i|m|f	: f.gotoworkspace "8"
+
+
