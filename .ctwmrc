@@ -3,25 +3,13 @@
 "L9" = : r|w|t|m|f : f.twmrc  #shift "L2": source .ctwmrc
 
 #Fonts
-#-*-courier-medium-r-*-*-14-*-*-*-*-*-*-*
-#-sony-fixed-medium-r-*-*-16-*-*-*-*-*-*-*
-# 694976 and e9dcf5
-#MenuFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
-#TitleFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
-#IconMAnagerFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
-#IconFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
-#ResizeFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
-#WorkSpaceFont "-*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*"
+
 TitleFont "-*-clean-*-*-*-*-6-*-*-*-*-*-*-*"
-
 MenuFont "-*-fixed-*-r-*-*-16-120-*-*-*-*-iso8859-1"
-
 IconMAnagerFont "-*-fixed-*-r-*-*-16-120-*-*-*-*-iso8859-1"
 IconFont "-*-fixed-*-r-*-*-16-120-*-*-*-*-iso8859-1"
 ResizeFont "-*-fixed-*-r-*-*-16-120-*-*-*-*-iso8859-1"
 WorkSpaceFont "-*-fixed-*-r-*-*-16-120-*-*-*-*-iso8859-1"
-
-
 
 # COLORS                                          
 
@@ -38,12 +26,6 @@ Color
   TitleForeground       "#fff7eb"
   BorderTileForeground  "#fff7eb"
   BorderTileBackground  "#fff7eb"
-#{
-# "xeyes" "#483939"
-# "TWM Icon Manager" "#483939"
-# "date" "#483939"
-# "cal" "#483939"
-#}
   MenuBackground        "#483939"
   MenuForeground        "#fff7eb"
   IconManagerBackground "#fff7eb"
@@ -105,36 +87,12 @@ FramePadding		  0		# frame around TB?
 NoTitleHighlight
 #NoHighlight
 
-#RightTitleButton  "xpm:/home/ethan/Downloads/smallerbis.xpm" = f.resize
-#RightTitleButton           "xpm:/home/ethan/Downloads/sbs.xpm"    = f.delete
-####RightTitleButton           "xpm:/home/ethan/Downloads/backpix.xpm"    = f.iconify
-####RightTitleButton           "xpm:/home/ethan/Downloads/backpix.xpm"    = f.resize
-
-####LeftTitleButton           "xpm:/home/ethan/Downloads/backpix.xpm"    = f.delete
-
-#RightTitleButton           "xpm:/home/ethan/Downloads/invblu.xpm"    = f.resize
-#####LeftTitleButton            "xpm:/home/ethan/Downloads/apple694976.xpm"  =f.iconify
-
-#LeftTitleButton  "xpm:/home/ethan/Downloads/sba.xpm" = f.delete
-#Rig
 # text buttons
 RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.movex
 RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
 RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
 RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
 RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
-
-#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
-#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
-#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
-#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
-#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
-
-#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
-#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
-#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
-#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
-#RightTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
 
 RightTitleButton           "xpm:/home/ethan/Downloads/downtext1.xpm"    = f.resize
 RightTitleButton           "xpm:/home/ethan/Downloads/uptext1.xpm"    = f.move
@@ -157,35 +115,6 @@ LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
 LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
 LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
 LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.move
-
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconif
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-
-#LeftTitleButton           "xpm:/home/ethan/Downloads/blanktext.xpm"    = f.iconify
-
-
-
 
 # Borders
 
@@ -281,58 +210,10 @@ NoBackingStore				# /which is faster,
 menu "LinuxPrograms"
 {
 "pin"              f.pin
-#"rxvt"		!"(rxvt -geometry 40x15 -T rxvt)&"
 "rxvt"     !"(rxvt -geometry 40x15 -T rxvt -e tmux)&" 
-#"execute"               !"(fbrun -nearmouse -w 300 -h 22 -fg '#363157' -bg '#fff7eb' -title execute)&"
-#"cal"           !"(bash /home/ethan/Documents/programs/calmaker.sh)"
-#"date"      !"(bash /home/ethan/Documents/programs/datemaker.sh)"
 "1993"     !"(bash /home/ethan/Documents/programs/datemaker.sh)"
 "goodbye"  f.quit
 }
-
-
-#menu "Menus"
-#{
-#"menus"			f.title
-#"pin"              f.pin
-#"execute"               !"(fbrun -nearmouse -w 300 -h 22 -fg '#363157' -bg '#fff7eb' -title execute)&"
-#"cal"           !"(bash /home/ethan/Documents/programs/calmaker.sh)"
-#" +"           f.nextworkspace
-#" -"           f.prevworkspace
-#"scrot"                 !"(bash /home/ethan/Documents/programs/ctwmscreenshotter.sh)"
-#"wall+picom"            !"(bash /home/ethan/Documents/programs/ctwmsetwall.sh)"
-#"show workspaces"                 !"(bash /home/ethan/Documents/programs/macosbar.sh &)"
-#"pixelart"                 !"(pkill lemonbar && pkill dzen2 &)"
-#"xrefresh"         !"(xrefresh)"
-#"restartctwm"      f.twmrc
-#"reloadXr"      !"(xrdb /home/ethan/.Xresources)"
-#"xeyes"   !"(xeyes +render &)"
-#"icon manager"          f.showiconmgr
-#"hideicon"    f.hideiconmgr
-#">w<"   !"(bash /home/ethan/Documents/programs/uwuify)"
-#}
-
-#menu "windows"
-#{
-#    "Windows"      f.title
-#    "Kill"         f.menu "Kill"
-#    "misc"         f.menu "misc"
-#    "Save"         f.saveyourself
-#    "Refresh All"  f.refresh
-#    "Refresh"      f.winrefresh
-#    "Occupy"       f.occupy
-#    "Occupy All"   f.occupyall
-#    "Vanish"       f.vanish
-#    "Iconify"      f.iconify
-#    "Resize"       f.resize
-#    "RaiseLower"   f.raiselower
-#    "Move"         f.move
-#    "Raise"        f.raise
-#    "Lower"        f.lower
-#    "Info"         f.identify
-#    "Focus"        f.focus
-#    "Unfocus"      f.unfocus
-#}
 
 menu "Menus"
 {
@@ -347,19 +228,6 @@ menu "Kill"
     "Kill Window"  f.destroy
     "Send Delete"  f.delete
 }
-
-
-#menu "Misc"
-#{
-#"pin"              f.pin
-#"wall+picom"       !"(bash /home/ethan/Documents/programs/ctwmsetwall.sh)"
-#"show workspaces"  !"(bash /home/ethan/Documents/programs/macosbar.sh)"
-#"restartctwm"      f.twmrc
-#"icon manager"     f.showiconmgr
-#"hideicon"         f.hideiconmgr
-#">w<"              !"(bash /home/ethan/Documents/programs/uwuify)"
-#}
-
 
 menu "Misc"
 {
@@ -380,29 +248,6 @@ menu "Misc"
 ">w<"   !"(bash /home/ethan/Documents/programs/uwuify)"
 }
 
-#menu "windows"
-#{
-#    "Windows"      f.title
-#    "minecraft"    !"(bash minecraft-launcher)"
-#    "Kill"         f.menu "Kill"
-#    "misc"         f.menu "misc"
-#    "Save"         f.saveyourself
-#    "Refresh All"  f.refresh
-#    "Refresh"      f.winrefresh
-#    "Occupy"       f.occupy
-#    "Occupy All"   f.occupyall
-#    "Vanish"       f.vanish
-#    "Iconify"      f.iconify
-#    "Resize"       f.resize
-#    "RaiseLower"   f.raiselower
-#    "Move"         f.move
-#    "Raise"        f.raise
-#    "Lower"        f.lower
-#    "Info"         f.identify
-#    "Focus"        f.focus
-#    "Unfocus"      f.unfocus
-#}
-
 menu "titleops"
 {
     "Title Bar"    f.title
@@ -420,13 +265,6 @@ menu "titleops"
     "Send Delete"  f.delete
     "Kill Window"  f.destroy
 }
-
-#menu "Kill"
-#{
-#    "Pin menu"     f.pin
-#    "Kill Window"  f.destroy
-#    "Send Delete"  f.delete
-#}
 
 
 
@@ -483,14 +321,6 @@ NoBorder
 "lemonbar"
 
 }
-
-NoHighlight 
-#{
-#"xeyes"
-#"TWM Icon Manager"
-#"date"
-#"cal"
-#}
 
 # FUNCTION DEFINITIONS                                   
 
